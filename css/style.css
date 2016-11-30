@@ -1,9 +1,9 @@
 
 
 body{
-    color:lightgray;
+    color:darkgray;
     background-color: white;
-    font-style: Verdana;
+    font-style: Garamond;
     font-weight:bold;
 }
 
@@ -13,6 +13,11 @@ input[type=text]{
 
 input[type=email]{
     border-width:0;
+}
+
+input[placeholder]{
+    color: lightgray;
+    padding: 2px;
 }
 
 .input{
